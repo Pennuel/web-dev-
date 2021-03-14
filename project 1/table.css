@@ -1,0 +1,38 @@
+@media (min-width: 20em)
+{
+    body{
+        grid-template-areas: 
+        'banner banner'
+        'table table'
+        'footer footer'
+        ;
+    }
+}
+table{grid-area:table}
+.data tr:nth-child(odd)
+{
+    background-color: cyan;
+}
+table, td, th{
+
+    border:1px solid white;
+}
+table{
+    border-collapse: collapse;
+    border:1px solid lightblue;
+}
+.data tr:hover{
+    background-color: #ccc;
+}
+table {
+ 
+}
+body{
+    background-image: linear-gradient(to top, black,rgb(0, 208, 255));
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+.footer1{
+    background:inherit;
+}
