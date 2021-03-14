@@ -1,0 +1,106 @@
+
+body{
+    background-image: linear-gradient(to bottom,orange,red);
+}
+.navbar{
+
+    /* box-sizing: border-box; */
+    border: 3px dashed rgb(16, 88, 46);
+    list-style-type:none;
+    text-transform: capitalize;
+
+    overflow:auto;
+}
+.navbar h2{
+    text-transform: capitalize;
+    margin: 2px 2px 20px 2px;
+    color:white;
+    background-color:rgb(194, 82, 188);
+    border-bottom: 20px;
+}
+.navbar ul{
+    padding:0 2px;
+}
+.navbar li{
+    border-bottom:1px solid white;    
+    background: rgb(194, 82, 188);
+}
+.navbar li a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color:white; 
+
+}
+.navbar li a:hover{
+    
+    /* color:; */
+}
+
+/* top nav bar */
+.navbar1{
+    border-color:blue;
+    max-width: 300px;
+    margin:auto;
+}
+
+.navbar1 li{
+    list-style-type:none;
+    display:inline;
+    
+}
+.navbar1 li a{
+    text-decoration: none;
+    text-transform: capitalize; 
+    color:white;
+    padding:6px;
+}
+.navbar1 li a:hover{
+    background: rgb(194, 82, 188);
+}
+.footer1{
+    text-align: center;
+    color: white;
+    background:purple;
+    font-size: 10px;
+}
+
+.footer hr{
+    background:purple;
+    height: 1px;
+}
+.button{
+    font : bold inherit 11px;
+    text-decoration: none;
+    background: #eee;
+    color: #333;
+    padding:2px 6px 2px 6px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left:#ccc;
+}
+
+.mainheading{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image{
+    background-image: url(./image/chrysanthemum-1332994_1920.jpg);
+    width:100vw;
+    height:20vh;
+    vertical-align: middle;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image h1{
+    color:white;
+    letter-spacing: 1px;
+}
+
+main{
+    background:rgba(245, 246, 252, 0.52);
+}

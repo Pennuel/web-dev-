@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homestyles.css">
+    <link rel="stylesheet" href="form.css">
+    
+    <title>form page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar1">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Registration Form</a> </li>
+                <li><a href="table.html">Records</a> </li>
+            </ul>
+        </nav>     
+        <section class="hrtop">
+        <hr>
+        </section>
+    </header>
+    <main >
+    <h1>Register Patient</h1>
+    <form action="/patient.php" method="post">
+        <ul>
+        <li>
+            <label for="PatientID">PatientID"</label>
+            <input type="text" id="PatientID" name="patientid" required="required">
+        </li>
+        <li>
+            <label for="Firstname">First Name</label>
+            <input type="text" name="first name" id="firstname">
+        </li>
+        <li>
+            <label for="middlename">middlename</label>
+            <input type="text" name="middlename" id="middlename">
+        </li>
+        <li>
+            <label for="surname">First Name</label>
+            <input type="text" name="surname" id="surname">
+        </li>
+        <li>
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date">
+        </li>
+        <li>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="other">rather not say</option>
+        </select>
+        </li>
+        <li>
+            <label for="county">county</label>
+            <input type="
+            text" name="county" id="county" list="countynames">
+            <datalist id="countynames">
+                <!-- <label for=""></label> -->
+                <option value="Mombasa">Mombasa (001)</option>
+                <option value="Kwale">Kwale (002)</option>
+                <option value="Kilifi">Kilifi (003)</option>
+                <option value="Tana River">Tana River (004)</option>
+                <option value="Lamu">Lamu (005)</option>
+                <option value="Taita/Taveta">Taita/Taveta (006)</option>
+                <option value="Garissa">Garissa (007)</option>
+                <option value="Wajir">Wajir (008)</option>
+                <option value="Mandera">Mandera (009)</option>
+                <option value="Marsabit">Marsabit (010)</option>
+                <option value="Isiolo">Isiolo (011)</option>
+                <option value="Meru">Meru (012)</option>
+                <option value="Tharaka-Nithi">Tharaka-Nithi (013)</option>
+                <option value="Embu">Embu (014)</option>
+                <option value="Kitui">Kitui (015)</option>
+                <option value="Machakos">Machakos (016)</option>
+                <option value="Makueni">Makueni (017)</option>
+                <option value="Nyandarua">Nyandarua (018)</option>
+                <option value="Nyeri">Nyeri (019)</option>
+                <option value="Kirinyaga">Kirinyaga (020)</option>
+                <option value="Murang'a">Murang'a (021)</option>
+                <option value="Kiambu">Kiambu (022)</option>
+                <option value="Turkana">Turkana (023)</option>
+                <option value="West Pokot">West Pokot (024)</option>
+                <option value="Samburu">Samburu (025)</option>
+                <option value="Trans Nzoia">Trans Nzoia 
+                (026)</option>
+                <option value="Uasin Gishu">Uasin Gishu 
+                (027)</option>
+                <option value="Elgeyo/Marakwet">Elgeyo/Marakwet (028)</option>
+                <option value="Nandi">Nandi (029)</option>
+                <option value="Baringo">Baringo (030)</option>
+                <option value="Laikipia">Laikipia (031)</option>
+                <option value="Nakuru">Nakuru (032)</option>
+                <option value="Narok">Narok (033)</option>
+                <option value="Kajiado">Kajiado (034)</option>
+                <option value="Kericho">Kericho (035)</option>
+                <option value="Bomet">Bomet (036)</option>
+                <option value="Kakamega">Kakamega (037)</option>
+                <option value="Vihiga">Vihiga (038)</option>
+                <option value="Bungoma">Bungoma (039)</option>
+                <option value="Busia">Busia (040)</option>
+                <option value="Siaya">Siaya (041)</option>
+                <option value="Kisumu">Kisumu (042)</option>
+                <option value="Homa Bay">Homa Bay (043)</option>
+                <option value="Migori">Migori (044)</option>
+                <option value="Kisii">Kisii (045)</option>
+                <option value="Nyamira">Nyamira (046)</option>
+                <option value="Nairobi City">Nairobi City (047)</option>  
+            </datalist>
+        </li>
+        
+        <li class="button">
+            <button type="reset">
+                reset
+            </button>
+        </li>
+        <li class="button">
+            <button type="submit">submit</button>
+        </li>
+    </ul>
+    </form>
+
+</main>
+<footer>
+    <div>
+        <hr>
+    </div>
+    <section class="footer1">
+        <p>code by ECIL PAUL PENNUEL | paulpennuel@stduents.uonbi.ac.ke</p>
+    <p>Nairobi Kenya</p>
+    </section>
+</footer>
+</body>
+</html>
